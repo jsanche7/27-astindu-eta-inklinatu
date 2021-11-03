@@ -14,6 +14,8 @@ basic.forever(function () {
     } else {
         led.unplot(4, 2)
     }
+})
+basic.forever(function () {
     if (input.isGesture(Gesture.LogoDown)) {
         led.plot(2, 0)
     } else {
